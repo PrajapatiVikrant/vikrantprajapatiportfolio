@@ -4,7 +4,7 @@ import "./Home.css"
 export default function Home(){
     return (
     
-            <div id="home" className="homeCtn sticky top-0 flex flex-col justify-center items-center" >
+            <div id="home" className="homeCtn  top-0 flex flex-col justify-center items-center" >
             
              <div>
              <h1 className="text-white text-center tracking-widest font-bold text-3xl lg:text-5xl" >Vikrant Prajapati</h1>
@@ -30,7 +30,7 @@ export default function Home(){
            
              </div>
            
-             <div className="flex  w-[80%] lg:w-[30%]  justify-around mt-[80px]">
+             <div className="flex z-10  w-[80%] lg:w-[30%]  justify-around mt-[80px]">
             <div className="text-4xl text-[rgba(255,255,255,0.4)]" ><a href="https://wa.me/919149209580"><i className=" fa-brands fa-square-whatsapp"></i></a></div>
               <div className="text-4xl text-[rgba(255,255,255,0.4)]" ><a href="https://www.linkedin.com/in/vikrant-prajapati-b82b5a269"><i className=" fa-brands fa-linkedin"></i></a></div>
               <div className="text-4xl text-[rgba(255,255,255,0.4)]" ><a href="mailto: prajapativikrant2020@gmail.com.com"><i className=" fa-solid fa-envelope"></i></a></div>
